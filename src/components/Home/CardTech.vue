@@ -4,8 +4,8 @@
       <img
         class="w-full h-48 object-cover"
         :src="Image"
-        alt="Card
-      Image"
+        alt="Card Image"
+        loading="lazy"
       />
       <div class="p-1">
         <div class="flex pr-2"><Settings /> Board</div>

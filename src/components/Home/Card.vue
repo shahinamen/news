@@ -6,6 +6,7 @@
         :src="Image"
         alt="Card
       Image"
+        loading="lazy"
       />
       <div class="p-1">
         <div class="flex pr-2"><Settings /> Hellow</div>

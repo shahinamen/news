@@ -23,6 +23,7 @@ const Badminton = ref(
             :src="Badminton"
             alt="Card
       Image"
+            loading="lazy"
           />
         </div>
         <div class="col-span-1 bg-white p-4 rounded shadow"><Card /></div>
