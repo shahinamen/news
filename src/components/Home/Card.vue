@@ -9,8 +9,10 @@
         loading="lazy"
       />
       <div class="p-1">
-        <div class="flex pr-2"><Settings /> Hellow</div>
-        <p class="text-gray-600 text-justify mt-2">
+        <div class="flex font-bold text-red-600">
+          <LaptopMinimalCheck class="mr-2" color="#FF0000" /> Computer Desk
+        </div>
+        <p class="text-gray-600 text-justify mt-2 hover:text-black">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
           qui unde sunt. At amet dicta, voluptates temporibus deleniti voluptas
           modi nisi. Voluptate delectus qui mollitia natus corrupti rerum
@@ -23,7 +25,7 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
-import { Settings } from "lucide-vue-next";
+import { LaptopMinimalCheck } from "lucide-vue-next";
 
 const Image = ref(
   "https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg"

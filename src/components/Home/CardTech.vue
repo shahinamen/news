@@ -8,8 +8,10 @@
         loading="lazy"
       />
       <div class="p-1">
-        <div class="flex pr-2"><Settings /> Board</div>
-        <p class="text-gray-600 text-justify mt-2">
+        <div class="flex font-bold text-red-600">
+          <Settings class="mr-2" color="#FF0000" /> Mother Board
+        </div>
+        <p class="text-gray-600 text-justify mt-2 hover:text-black">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
           reiciendis exercitationem ipsa odit hic itaque aliquid libero numquam,
           obcaecati ab nihil eos cum, perspiciatis atque eligendi possimus
