@@ -26,24 +26,23 @@ const CardImage3 = ref(
       <div>
         <ButtonGroup />
       </div>
-      <div class="grid grid-cols-4 gap-4 p-2">
-        <div class="col-span-2 bg-white p-4 rounded shadow cursor-pointer">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 p-2">
+        <div class="sm:col-span-2 bg-white p-4 rounded shadow cursor-pointer">
           <img
-            class="w-full object-cover rounded-lg"
+            class="w-full h-48 sm:h-64 object-cover rounded-lg"
             :src="Badminton"
-            alt="Card
-      Image"
+            alt="Card Image"
             loading="lazy"
           />
         </div>
-        <div class="col-span-1 bg-white p-4 rounded shadow">
-          <Card class="cursor-pointer" />
+        <div class="bg-white p-4 rounded shadow cursor-pointer">
+          <Card />
         </div>
-        <div class="col-span-1 bg-white p-4 rounded shadow">
-          <CardTech class="cursor-pointer" />
+        <div class="bg-white p-4 rounded shadow cursor-pointer">
+          <CardTech />
         </div>
       </div>
-      <div class="grid grid-cols-4 gap-4 p-2">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 p-2">
         <div class="bg-white p-4 rounded shadow cursor-pointer">
           <div class="relative group">
             <img
